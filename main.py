@@ -128,10 +128,10 @@ class App:
         processed_tracks = [
             {
                 "Title": track.name,
-                "Album": track.album.name,
                 "Album Artist": ", ".join(
                     [artist.name for artist in track.album.artists]
                 ),
+                "Album": track.album.name,
             }
             for track in tracklist
         ]
