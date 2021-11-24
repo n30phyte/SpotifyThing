@@ -1,2 +1,3 @@
-# SpotifyThing
-Small program that saves a playlist from spotify in CSV form ('|' as delimiters)
+# SpotifyThing (Version 2)
+
+Small program to do things with Spotify
